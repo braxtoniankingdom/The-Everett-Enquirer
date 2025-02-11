@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Everett Inquirer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #222;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        The Everett Inquirer
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Welcome to The Everett Inquirer</h1>
+        <p>Your trusted source for insights, commentary, and stories.</p>
+        
+        <h2 id="blog">Latest Blog Posts</h2>
+        <ul>
+            <li><a href="#">How The Everett Inquirer Came to Be</a></li>
+            <li><a href="#">The Future of Journalism in the Digital Age</a></li>
+            <li><a href="#">Uncovering Forgotten Histories</a></li>
+        </ul>
+    </div>
+    <footer>
+        &copy; 2024 The Everett Inquirer | All Rights Reserved
+    </footer>
+</body>
+</html>
